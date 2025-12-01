@@ -1,0 +1,64 @@
+.detail-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.detail-info {
+  margin-bottom: 1rem;
+}
+
+.detail-info p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.detail-info strong {
+  color: var(--ion-color-primary);
+}
+
+.summary {
+  margin-top: 1.5rem;
+}
+
+.summary h3 {
+  margin: 0 0 0.75rem 0;
+  color: var(--ion-color-primary);
+  font-size: 1.2rem;
+}
+
+.summary div {
+  line-height: 1.6;
+  color: var(--ion-color-dark);
+}
+
+/* Loading and Error States */
+.loading-state,
+.error-state,
+.no-data-state {
+  padding: 2rem;
+  text-align: center;
+  color: var(--ion-color-medium);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .detail-header {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .detail-image {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,20 @@
+:host {
+  display: block;
+  padding: 1rem;
+  background: var(--ion-color-light);
+  border-radius: 8px;
+
+  .rating-range {
+    padding-top: 0;
+  }
+
+  ion-searchbar {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  :host {
+    padding: 1.5rem;
+  }
+}
