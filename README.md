@@ -14,7 +14,7 @@ A modern Angular + Ionic application that displays TV shows from the TVMaze API 
 
 1. **Standalone Components**: Modern Angular approach without NgModules, eliminating boilerplate and improving tree-shaking
 2. **Signal-based State**: Reactive state management with computed values for better performance than traditional observables
-3. **Resource Management**: Angular's new `httpResource` for efficient API calls with built-in caching
+3. **Resource Management**: Angular's new `httpResource` for efficient API calls
 4. **Lazy Loading**: Route-based code splitting for optimal performance and faster initial load times
 5. **Service Layer**: Clean API abstraction with the TvMazeApiService for separation of concerns
 6. **Type Safety**: Comprehensive TypeScript models for all API responses ensuring compile-time safety
