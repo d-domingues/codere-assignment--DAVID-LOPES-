@@ -34,7 +34,7 @@ A modern Angular + Ionic application that displays TV shows from the TVMaze API 
 1. **Clone the repository and install dependencies:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/d-domingues/codere-assignment--DAVID-LOPES-.git
    cd codere-assignment
    npm install
    ```
